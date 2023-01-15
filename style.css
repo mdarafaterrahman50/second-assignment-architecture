@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner-section {
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+.nav-bar {
+    padding: 50px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.nav nav ul {
+    display: flex;
+}
+
+.nav nav ul li {
+    list-style: none;
+}
+
+.nav nav ul li a {
+    text-decoration: none;
+    margin-left: 80px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 15px;
+}
+
+.banner-description {
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+
+.btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+    transition: 0.4s;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.banner-image {
+    padding-bottom: 45px;
+}
+
+/* Features styles */
+.feature-section {
+    margin: 100px 0;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.feature-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features-details {
+    margin-left: 70px;
+}
+
+.features-details h3 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.first-color {
+    color: #727272;
+}
+
+.second-color {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.features-details p {
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+
+/* Architecture */
+.architecture {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.architecture-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .architects-details {
+    width: 50%;
+} */
+
+.architects-details h1 {
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+
+.architects-details p {
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.architecture-service-details {
+    width: 520px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.architecture-service-details h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.architects-image {
+    width: 50%;
+    margin-left: 100px;
+}
+
+.architects-btn {
+    width: 342px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: -70px;
+}
+
+.third-btn {
+    font-size: 45px;
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    padding: 50px;
+    background: #FF900E;
+    transition: 0.3s;
+}
+.third-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Fact  */
+.fact-section {
+
+    display: flex;
+    justify-content: center;
+}
+
+.fact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.fact-descript {
+    color: #727272;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.fact-box {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px;
+    margin: 2%;
+    width: 185px;
+    text-align: center;
+    transition: 0.4s;
+}
+.fact-box h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+/* Review  */
+.review-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-section h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.review-subtitle {
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.review {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.reviewer {
+    font-size: 35px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.reviewer-from {
+    color: darkgrey;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.review-details {
+    color: #727272;
+
+}
+
+/* Sponsor */
+.sponsors {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.sponsor-details {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.sponsor-details p {
+    color: #727272;
+    margin-bottom: 50px;
+}
+
+.sponsor-images img {
+    width: 166.76px;
+    height: 50px;
+    margin-left: 50px;
+    transition: 0.3s
+}
+
+/* footer  */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.footer-details {
+    padding: 40px 410px;
+    background: #0808bb;
+    border-radius: 8px;
+}
+
+.footer-details p{
+    color: #fff;
+}
